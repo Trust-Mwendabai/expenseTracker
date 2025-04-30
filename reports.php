@@ -102,7 +102,6 @@ $monthlyBalance = $transaction->getMonthlyBalance($userId, $currentYear, $curren
                             <i class="bi bi-gear me-1"></i>Settings
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="profile.php"><i class="bi bi-person me-2"></i>Profile</a></li>
                             <li><a class="dropdown-item" href="categories.php"><i class="bi bi-tags me-2"></i>Categories</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="logout.php"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
