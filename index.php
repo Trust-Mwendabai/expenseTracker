@@ -109,16 +109,10 @@ $trendData = $report->getSpendingTrend($userId, 6);
                             <i class="bi bi-plus-circle me-1"></i>Add Transaction
                         </a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
-                            <i class="bi bi-person-circle me-1"></i>Account
+                    <li class="nav-item">
+                        <a class="nav-link" href="logout.php">
+                            <i class="bi bi-box-arrow-right me-1"></i>Logout
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="profile.php"><i class="bi bi-person me-2"></i>Profile</a></li>
-                            <li><a class="dropdown-item" href="settings.php"><i class="bi bi-gear me-2"></i>Settings</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="logout.php"><i class="bi bi-box-arrow-right me-2"></i>Logout</a></li>
-                        </ul>
                     </li>
                 </ul>
             </div>
@@ -847,20 +841,21 @@ $trendData = $report->getSpendingTrend($userId, 6);
             <a href="logout.php" class="btn btn-outline-danger">Logout</a>
         </div>
     </div>
-</body>
-</html>
-
-<footer class="footer mt-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <p>&copy; <?php echo date('Y'); ?> Expense Tracker. All rights reserved.</p>
-            </div>
-            <div class="col-md-6 text-md-end footer-links">
-                <a href="privacy.php">Privacy Policy</a>
-                <a href="terms.php">Terms of Service</a>
-                <a href="contact.php">Contact Us</a>
+    
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <?php echo date('Y'); ?> Expense Tracker. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end footer-links">
+                    <a href="privacy.php">Privacy Policy</a>
+                    <a href="terms.php">Terms of Service</a>
+                    <a href="contact.php">Contact Us</a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</body>
+</html>
